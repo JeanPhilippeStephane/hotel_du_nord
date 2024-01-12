@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+/* text font family */
+p {
+  font-family: "Roboto", sans-serif;
+}
+
+/* Titles font family */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Open Sans", sans-serif;
+}
+
+/* Fond gris clair */
+.dev-bg-light-gray {
+  background-color: #cccccc;
+}
+
+/* Fond gris clair */
+.dev-bg-dark-gray {
+  background-color: #3a3a3a;
+}
+
+/* Fond violet  */
+.dev-bg-violet {
+  background-color: #490062;
+}
+
+/* Fond violet foncé */
+.dev-bg-dark-violet {
+  background-color: #300040;
+}
+
+.banniere {
+  background-image: url("../assets/hotel.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 400px;
+}
+
+#restaurant{
+  padding: 200px 0;
+}
+
+#valors{
+  padding: 200px 0;
+}
+
+#lieu{
+  padding-top: 200px;
+  padding-bottom: 50px;
+}
+
+
+

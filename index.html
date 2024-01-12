@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Accueil</title>
+
+    <!-- CDN Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+
+    <!--Boostrap Icons-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style/style.css" />
+  </head>
+  <body>
+    <!--------------------Haut de page------------------------>
+    <header class="fixed-top">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Hôtel du Nord</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Accueil</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+            <div class="d-flex" role="socials">
+              <i class="bi bi-facebook me-3 fs-3"></i>
+              <i class="bi bi-twitter me-3 fs-3"></i>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!--------------------Fin Haut de page------------------------>
+
+    <!--------------------Bannière------------------------>
+    <section class="pb-3">
+      <div class="col">
+        <div
+          class="banniere d-flex justify-content-center align-items-center opacity-75"
+        >
+          <h1 class="text-center text-white">
+            Hotel du Nord <br /><br />
+            (+33)9 08 07 06 05
+          </h1>
+        </div>
+      </div>
+    </section>
+
+    <!--------------------Fin Bannière------------------------>
+
+    <main class="px-0">
+      <!-- Section Services-->
+      <section class="text-center py-5">
+        <div class="container">
+          <h1 class="pb-3">Nos Activités</h1>
+          <div class="row justify-content-around">
+            <div class="col-3">
+              <h2 class="text-center">Hébergement</h2>
+              <img class="w-100" src="assets/hotel-icon.png" alt="" />
+            </div>
+            <div class="col-3">
+              <h2 class="text-center">Restaurant</h2>
+              <img class="w-100" src="assets/restaurent-icon.png" alt="" />
+            </div>
+            <div class="col-3">
+              <h2 class="text-center">Séminaire</h2>
+              <img class="w-100" src="assets/meeting-icon.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--Fin section services-->
+
+      <!-- Section A propos-->
+      <section class="dev-bg-light-gray">
+        <div class="row mb-5">
+          <img src="assets/couloir.jpg" class="col-6" alt="" />
+          <article
+            class="col-6 py-5 d-flex align-items-center justify-content-center"
+          >
+            <div class="">
+              <h2 id="present" class="text-center">Présentation</h2>
+              <p class="fs-4 mt-3 w-75 mx-auto text-justify">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Maiores eius officiis quo aliquid repellendus nostrum similique
+                quas accusamus tenetur impedit. Suscipit pariatur totam qui sint
+                laboriosam voluptate illo! Voluptatibus, ea?
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+      <!-- Fin section A propos-->
+
+      <!--------------------Section Valeurs------------------------>
+      <section id="valors" class="m-auto">
+        <div class="container-fluid py-5">
+          <div class="row justify-content-evenly py-5">
+            <article class="col-5">
+              <h1 class="text-center">Nos valeurs</h1>
+              <h5 class="mt-3 text-center">
+                HOTEL DU NORD a mis en place une charte qualité dans un souci
+                constant d'améliorer ses services où la satisfaction du client
+                est au coeur de notre démarche.
+              </h5>
+            </article>
+            <article class="col-5">
+              <h1 class="text-center">L'équipe</h1>
+              <h5 class="mt-3 text-center">
+                Notre personnel est sélectionné et formé pour répondre au
+                meilleur de notre engagement : votre entière satisfaction !
+              </h5>
+            </article>
+          </div>
+        </div>
+      </section>
+      <!--------------------Fin section Valeurs------------------------>
+
+      <!--------------------section Equipement------------------------>
+
+      <section class="dev-bg-light-gray">
+        <div class="d-flex d-flex flex-row-reverse">
+          <img src="assets/bed.jpg" class="col-6" alt="" />
+          <article
+            class="col-6 py-5 d-flex align-items-center justify-content-center"
+          >
+            <div class="">
+              <h2 id="present" class="text-center">L'hebergement</h2>
+              <p class="fs-4 mt-3 text-center">
+                Nous Proposons les services suivant :
+              </p>
+
+              <ul>
+                <li>Climatisation</li>
+                <li>
+                  Salle de bain avec baignoire balnéothérapie ou douche hydrojet
+                </li>
+                <li>Ecran plat 130 cm</li>
+                <li>Plateau de courtoisie (thé, café)</li>
+                <li>84 chambres (simples, doubles, triples, familles)</li>
+                <li>
+                  Chaînes nationales + 4 chaînes Satellites + Canal + téléphone
+                </li>
+                <li>Wifi gratuit</li>
+                <li>les services que propose l'hôtel</li>
+                <li>Réception 24h/24</li>
+                <li>Service fax à la réception</li>
+                <li>Salon</li>
+                <li>Parking privé gratuit</li>
+                <li>
+                  Navette gratuite en direction de l'aéroport sur simple appel
+                  de 6H30 à 22H30 au 01 01 01 01 01
+                </li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </section>
+      <!--------------------Fin section Equipement------------------------>
+
+      <!--------------------section Séminaire------------------------>
+      <section class="dev-bg-light-gray">
+        <div class="d-flex flex-row">
+          <img src="assets/room.jpg" class="col-6" alt="" />
+          <article class="col-6 py-5 d-flex align-items-center justify-content-center">
+            <div class="">
+              <h2 id="present" class="text-center">Les séminaires</h2>
+              <div class="container">
+                <p class="fs-5 mx-5 text-justify">
+                  <br>
+                  L'hôtel accueille des séminaires pour vos réunions de travail.
+                  <br /> <br>
+                  Un service de location de salle est mis à votre disposition,
+                  où par ailleurs plusieurs services liés au repas peut vous
+                  être proposé. <br /><br>
+                  Nous disposons de deux salles de réunion modulables de 80m2,
+                  lumière du jour avec cloisons mobiles. Équipement gratuit :
+                </p>
+                <ul class="ms-5">
+                    <li>Vidéo projecteur</li>
+                    <li>paperboard digital</li>
+                    <li>écran tactile</li>
+                    <li>WIFI</li>
+                    <li> Climatisation.</li>
+                </ul>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+      <!--------------------section Séminaire------------------------>
+
+      <!--------------------section Restaurant------------------------>
+      <section id="restaurant">
+        <div class="container-fluid col-8">
+          <h2 class="text-center">Retaurant</h2>
+          <div class="row justify-content-evenly">
+
+            <h3 class="my-5">Menus</h3>
+
+            <div class="card my-3" style="width: 24rem;">
+              <div class="card-body text-center">
+                <h4 class="card-title text-center">Menu REUNION </h4>
+                <h5 class="card-subtitle my-2 text-muted">Entrées :</h5>
+                <ul class="list-unstyled">
+                  <li class="card-text">Tartare de tomate et de chèvre</li>
+                  <li class="card-text">Velouté de courgette au parmesan</li>
+                </ul>
+
+                <h5 class="card-subtitle my-2 text-muted">Plats :</h5>
+                <ul class="list-unstyled">
+                  <li class="card-sub-text">Poulet Basquaise</li>
+                  <li class="card-text">Lieu rôti aux légumes</li>
+                </ul>
+
+                <h5 class="card-subtitle my-2 text-muted">Desserts et fromages :</h5 >
+                <ul class="list-unstyled">
+                  <li class="card-text">Plateau de fromages</li>
+                  <li class="card-text">Moelleux au chocolat</li>
+                  <li class="card-text">Tarte maison</li>
+                </ul>
+                
+                <p class="card-link text-center pt-3">Prix : 13.62 €</a>
+              </div>
+            </div>
+
+            <div class="card my-3" style="width: 24rem;">
+              <div class="card-body text-center">
+                <h4 class="card-title text-center">Menu REUNION </h4>
+                <h5 class="card-subtitle my-2 text-muted">Entrées :</h5>
+                <ul class="list-unstyled">
+                  <li class="card-text">Lasagnes d'aubergines à la provençale</li>
+                  <li class="card-text">Carpaccio de saumon</li>
+                </ul>
+
+                <h5 class="card-subtitle my-2 text-muted">Plats :</h5>
+                <ul class="list-unstyled">
+                  <li class="card-sub-text">Magret de canard</li>
+                  <li class="card-text">Truite en papillote aux olives</li>
+                </ul>
+
+                <h5 class="card-subtitle my-2 text-muted">Desserts et fromages :</h5 >
+                <ul class="list-unstyled">
+                  <li class="card-text">Plateau de fromages</li>
+                  <li class="card-text">Nougat glacé</li>
+                  <li class="card-text">Crème brûlé à la cassonade.</li>
+                </ul>
+                
+                <p class="card-link text-center pt-3">Prix : 16.76 €</a>
+              </div>
+            </div>
+
+            <div class="card my-3" style="width: 24rem;">
+              <div class="card-body text-center">
+                <h4 class="card-title text-center">Menu PRESTIGE</h4>
+                <h5 class="card-subtitle my-2 text-muted">Entrées :</h5>
+                <ul class="list-unstyled">
+                  <li class="card-text">Salade verte et poêlée de Saint-Jacques</li>
+                  <li class="card-text">Assiette de foie gras</li>
+                </ul>
+
+                <h5 class="card-subtitle my-2 text-muted">Plats :</h5>
+                <ul class="list-unstyled">
+                  <li class="card-sub-text">Souris d'agneau au romarin</li>
+                  <li class="card-text">Bar au pistou</li>
+                </ul>
+
+                <h5 class="card-subtitle my-2 text-muted">Desserts et fromages :</h5 >
+                <ul class="list-unstyled">
+                  <li class="card-text">Plateau de fromages</li>
+                  <li class="card-text">Profiteroles au chocolat</li>
+                  <li class="card-text">Soupe de fruits</li>
+                </ul>
+                
+                <p class="card-link text-center pt-3">Prix : 18.86 €</a>
+              </div>
+            </div>
+
+            <div class="card my-3" style="width: 24rem;">
+              <div class="card-body text-center">
+                <h4 class="card-title text-center">Autre Formules proposées </h4>
+                <h5 class="card-subtitle my-2 text-muted">Donnez du goût à vos repas en dégustant nos formules et nos buffets à volonté :</h5>
+                
+                <ul class="list-unstyled">
+                  <li class="card-text">Buffet de hors d'oeuvres et de desserts</li>
+                  <li class="card-text">Plats à la carte</li>
+                  <li class="card-text">Banquets, Mariages...</li>
+                  <li class="card-text">Repas pour groupes</li>
+                </ul>
+                
+              </div>
+            </div>
+
+          </div>
+
+          <h2 class="my-5">La cave</h2>
+          <div class="row justify-content-evenly">
+
+            <div class="card p-0" style="width: 18rem;">
+              <img src="assets/vin.jpg" class="card-img-top border-bottom border-2" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Vins Rouges</h5>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">2004 Saumur les Rivières</li>
+                <li class="list-group-item">2003 Côteau du lyonnais le Pot des Voraces</li>
+                <li class="list-group-item">2004 Bergerac château la Haute Metairie</li>
+              </ul>
+            </div>
+
+            <div class="card p-0" style="width: 18rem;">
+              <img src="assets/vin_blanc.jpg" class="card-img-top border-bottom border-2" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Vins Blanc</h5>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">2003 Entre deux mers bordeaux château de Sanse</li>
+                <li class="list-group-item">2005 Muscadet coteaux de la Loire Cour de Rohan</li>
+              </ul>
+            </div>
+            <div class="card p-0" style="width: 18rem;">
+              <img src="assets/vin-rose.jpg" class="card-img-top border-bottom border-2" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Vins Rosés</h5>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">2004 Costieres de nimes château St Louis la perdrix</li>
+                <li class="list-group-item">2004 Côte de Provence Cesar Mestralou</li>
+                
+              </ul>
+            </div>
+
+
+          </div>
+
+          <h2 class="my-5">Les Boissons</h2>
+          <div class="d-flex flex-wrap justify-content-between">
+            
+            <div class="card" style="width: 18rem;">
+              
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">Crowley</li>
+                <li class="list-group-item">Glenfiddich</li>
+              </ul>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+              
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">Pastis 51, Ricard</li>
+                <li class="list-group-item">Martini rouge, Martini blanc</li>
+                <li class="list-group-item">Campari</li>
+                <li class="list-group-item">Américano maison</li>
+                <li class="list-group-item">Suze, Muscat de Rivesaltes</li>
+                <li class="list-group-item">Rhum, Gin, Vodka, Malibu</li>
+                <li class="list-group-item">Kir au vin blanc</li>
+                <li class="list-group-item">Porto Rouge, Porto blanc</li>
+                <li class="list-group-item">Martini Gin</li>
+              </ul>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+              
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">Pression Leffe blonde</li>
+                <li class="list-group-item">Picon Bière</li>
+                <li class="list-group-item">Hoegaarden Blanche</li>
+                <li class="list-group-item">Leffe blonde</li>
+                <li class="list-group-item">Despérado</li>
+                
+              </ul>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+              
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">Vittel, Badoit, Perrier, St Pélégrino</li>
+                <li class="list-group-item">Coca Cola, Coca Cola Light</li>
+                <li class="list-group-item">Limonade, Diabolo</li>
+                <li class="list-group-item">Orangina</li>
+                <li class="list-group-item">Schweppes</li>
+                
+              </ul>
+            </div>
+
+          </div>
+
+
+
+        </div>
+      </section>
+      <!--------------------Fin section Restaurant------------------------>
+
+      <!--------------------Section Restaurant------------------------>
+
+      <section id="lieu" class="dev-bg-light-gray" >
+
+        <div class="container">
+          <div class="row text-center"><div class="col-6">
+            <h3>Réservations</h3>
+            <div>
+              <p>tel :</p>
+              <p>(+33)9 08 07 06 05</p>
+            </div>
+          </div>
+
+          <div class="col-6">
+            <h3>Adresse</h3>
+            <div>
+              <p>Lorem ipsum dolor sit amet </p>
+              <p>0000 - Lorem ipsum dolor sit </p>
+            </div>
+          </div>
+        </div>
+          
+
+
+        </div>
+
+        <div class="container-fluid col-9">
+          <h2 class="my-5 text-center">Nous Trouver</h2>
+          <div class="text-center"><iframe  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d231116.32973311518!2d3.391708737608873!3d50.20789852408184!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c2d579b3256e11%3A0x40af13e81646360!2sLille!5e0!3m2!1sfr!2sfr!4v1705068190542!5m2!1sfr!2sfr" width="75%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+        </div>
+
+      </section>
+
+
+      <!--------------------Fin section Restaurant------------------------>
+
+
+    </main>
+
+    <!--------------------Pied de page ------------------------>
+    <footer >
+      <div class=" mx-auto col-9  d-flex justify-content-between align-items-center">
+        <p class="m-0">© Copyright. All rights reserved | 2024</p>
+        <div class="d-flex" role="socials">
+          <i class="bi bi-facebook me-3 fs-3"></i>
+          <i class="bi bi-twitter me-3 fs-3"></i>
+        </div>
+      </div>
+      </footer>
+    <!--------------------Pied de page ------------------------>
+
+    <!--CDN Bootsrap-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
